@@ -27,6 +27,10 @@ img {
     background-color: var(--light-gray);
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .toolbar .row {
@@ -60,4 +64,21 @@ img {
 
 .toolbar ul {
    color: var(--dark-gray); 
+}
+
+.side-bar {
+    width: 70px;
+    background-color: var(--dark);
+    height: 100vh;
+    color: var(--light);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mt-auto {
+    margin-top: auto;
 }
