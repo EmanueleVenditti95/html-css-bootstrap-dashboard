@@ -77,11 +77,10 @@ a {
     height: 100vh;
     color: var(--light);
     padding-top: 100px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .mt-auto {
@@ -92,14 +91,23 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin: 0 20px;
-    padding: 0 10px;
+    margin: 0 10px;
+    padding: 10px;
     line-height: 30px;
 }
 
 .side-bar__option:hover {
     background-color: rgb(255, 255, 255,0.5);
     cursor: pointer;
+}
+
+.main-content {
+    background-color: var(--light-gray);
+    padding-top: 70px;
+}
+
+.hero {
+    background-color: var(--blue);
 }
 
 /* MEDIA QUERY */
