@@ -1,0 +1,23 @@
+.debug {
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+/* COLOR PALETTE */
+:root {
+    --light-gray:#f7f7f7;
+    --blue:#1b72e8;
+    --light:#ffffff;
+    --dark:#051e34;
+}
+
+.toolbar {
+    height: 70px;
+    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+}
+
+.toolbar .row {
+    background-color: var(--light);
+}
