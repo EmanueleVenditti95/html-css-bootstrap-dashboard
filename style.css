@@ -3,12 +3,23 @@
     min-height: 50px;
 }
 
+ol,ul,li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* COLOR PALETTE */
 :root {
     --light-gray:#f7f7f7;
     --blue:#1b72e8;
     --light:#ffffff;
     --dark:#051e34;
+    --gray:#e5e5e5;
+    --dark-gray:#5b5858;
 }
 
 .toolbar {
@@ -20,4 +31,33 @@
 
 .toolbar .row {
     background-color: var(--light);
+}
+
+.toolbar .logo {
+    width: 42px;
+}
+
+.toolbar div[class^="col"] {
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    position: relative;
+}
+
+.search input{
+    height: 42px;
+    text-indent: 25px;
+    background-color: var(--gray);    
+}
+
+.search .fa-search{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+}
+
+.toolbar ul {
+   color: var(--dark-gray); 
 }
