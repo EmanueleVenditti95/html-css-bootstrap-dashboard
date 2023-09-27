@@ -12,6 +12,11 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 /* COLOR PALETTE */
 :root {
     --light-gray:#f7f7f7;
@@ -73,12 +78,34 @@ img {
     color: var(--light);
     padding-top: 100px;
     padding-bottom: 30px;
-    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .mt-auto {
     margin-top: auto;
+}
+
+.side-bar__option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 20px;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.side-bar__option:hover {
+    background-color: rgb(255, 255, 255,0.5);
+    cursor: pointer;
+}
+
+/* MEDIA QUERY */
+@media (min-width: 992px) {
+    .side-bar {
+        width: 150px;
+        align-items: flex-start;
+    }
 }
