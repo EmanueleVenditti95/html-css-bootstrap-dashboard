@@ -25,6 +25,7 @@ a {
     --dark:#051e34;
     --gray:#e5e5e5;
     --dark-gray:#5b5858;
+    --orange:#f26551;
 }
 
 .toolbar {
@@ -117,12 +118,30 @@ a {
     border-radius: 5px;
 }
 
+.table-button {
+    border: 1px solid var(--dark-gray);
+    color: var(--dark-gray);
+    padding: 5px;
+    border-radius: 5px
+}
+
+.code-sign {
+    color: var(--light);
+    padding: 6px 4px;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
+
 .flex-grow-2 {
     flex-grow: 2;
 }
 
 .badge {
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+td:nth-child(2), td:nth-child(4), td:last-child {
+    text-align: center;
 }
 
 /* MEDIA QUERY */
