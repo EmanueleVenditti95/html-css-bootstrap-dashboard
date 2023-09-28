@@ -74,6 +74,7 @@ a {
 .side-bar {
     width: 70px;
     background-color: var(--dark);
+    background-image: url(./img/sidebar-bg.png);
     height: 100vh;
     color: var(--light);
     padding-top: 100px;
@@ -116,8 +117,16 @@ a {
     border-radius: 5px;
 }
 
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.badge {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 /* MEDIA QUERY */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .side-bar {
         width: 150px;
         align-items: flex-start;
