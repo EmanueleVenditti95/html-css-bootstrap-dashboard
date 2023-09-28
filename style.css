@@ -163,10 +163,18 @@ td:nth-child(2), td:nth-child(4), td:last-child {
     color: var(--blue);
 }
 
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+
 /* MEDIA QUERY */
 @media (min-width: 1200px) {
     .side-bar {
         width: 150px;
         align-items: flex-start;
+    }
+
+    .offcanvas.offcanvas-end {
+        width: 50%;
     }
 }
