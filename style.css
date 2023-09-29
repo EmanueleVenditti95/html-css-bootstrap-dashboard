@@ -82,13 +82,13 @@ main.container-fluid {
     width: 70px;
     background-color: var(--dark);
     background-image: url(./img/sidebar-bg.png);
-    height: 100vh;
+    height: calc(100vh - 70px);
     color: var(--light);
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: auto;
 }
 
 .mt-auto {
