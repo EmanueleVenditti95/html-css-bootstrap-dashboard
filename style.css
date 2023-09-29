@@ -130,6 +130,11 @@ main.container-fluid {
     border-radius: 5px;
 }
 
+.plus-button:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
 .table-button {
     border: 1px solid var(--dark-gray);
     color: var(--dark-gray);
