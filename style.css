@@ -17,6 +17,10 @@ a {
     color: currentColor;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 /* COLOR PALETTE */
 :root {
     --light-gray:#f7f7f7;
@@ -50,7 +54,7 @@ main.container-fluid {
 }
 
 .toolbar .logo {
-    width: 42px;
+    max-width: 42px;
 }
 
 .toolbar div[class^="col"] {
@@ -180,6 +184,10 @@ td:nth-child(2), td:nth-child(4), td:last-child {
 
 .bell-icon {
     color: #f2a809;
+}
+
+.toolbar>li {
+    cursor: pointer;
 }
 
 /* MEDIA QUERY */
